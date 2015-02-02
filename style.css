@@ -735,8 +735,8 @@ x.x Header
 
 .site-title{
         font-weight: 700;
-        font-size: 40px;
-        font-size: 4.5rem;
+        font-size: 30px;
+        font-size: 3.5rem;
         text-transform: uppercase;
         line-height: normal;
         padding-bottom: 1rem;
@@ -749,7 +749,12 @@ x.x Header
        font-size: 2rem;
 }
 
-
+.site-title a,
+.site-description {
+    
+        color: #fff;
+        color: hsl(0, 0%, 100%);
+}
 /*--------------------------------------------------------------
 9.0 Widgets
 --------------------------------------------------------------*/
